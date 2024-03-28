@@ -21,7 +21,7 @@ const StatusSelect = ({ issue }: { issue: Issue }) => {
         .catch(() => {
           toast.error("Changes could not be saved.");
         }).finally(() => {
-          toast.success("Status set to updated.");
+          toast.success("Status updated.");
         });
     };
 
